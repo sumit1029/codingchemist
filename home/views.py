@@ -65,5 +65,5 @@ def singup(request):
         messages.success(request, "Account created")
     return render(request, 'singup.html')
 
-def doremon(request):
-    return render(request, 'doremon.html')
+# def doremon(request):
+#     return render(request, 'doremon.html')

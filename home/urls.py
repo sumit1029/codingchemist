@@ -10,5 +10,5 @@ urlpatterns = [
     path('login', views.loginUser, name='login'),
     path('logout', views.logoutUser, name='logout'),
     path('singup', views.singup, name='singup'),
-    path('doremon', views.doremon, name='doremon')
+    # path('doremon', views.doremon, name='doremon')
 ]
